@@ -41,9 +41,9 @@ finish = False
 clock = time.Clock()
 FPS = 60
 
-racket1 = Player("racket1.png",30,200,4,12,120)
-racket2 = Player("racket2.png",550,200,4,12,120)
-ball = GameSprite("ball.png",200,200,4,50,50)
+racket1 = Player("racket1.png",30,200,12,120,4)
+racket2 = Player("racket2.png",550,200,12,120,4)
+ball = GameSprite("ball.png",200,200,50,50,4)
 
 
 while game:
